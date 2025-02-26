@@ -1,11 +1,14 @@
-## Análise de Sobrevivência para Censura Intervalar
+## Análise de Sobrevivência para Censura Intervalar para Grandes Bancos de Dados
 
-A análise de sobrevivência é o campo da estatística dedicado ao estudo do tempo até o evento de interesse, mesmo na presença de censuras, ou seja, dados incompletos para o desfecho. 
-Assim, fazemos uma análise do tempo t até o desfecho ou do tempo t até a perda de acompanhamento - a censura. Contudo, muitas vezes o acompanhamneto é feito através de consultas e não se sabe o valor exato para t. 
-Desta forma, é feita uma adaptação dos métodos tradicionais de análise de sobrevivência para a carcaterística intervalar da coleta de dados.
+Este script foi resultado do Trabalho de Conclusão de Curso do curso de Estatística pela UFMG, sob orientação do prof. Enrico Antônio Colosimo 
 
-O script dá o passo a passo de uma análise de sobrevivência para censura intervalar usando dados sintéticos, com base no livro de Colosimo e Giolo (2024).
+### Objetivo
+Esse código traz um passo a passo com dados sintéticos para realizar a análise de sobrevivência para dados com carcaterística intervalar. 
+Para tal, foi usado como base os suplementos do livro Análise de Sobrevivência Aplicada de Colosimo e Giolo (2024), disponíveis em https://docs.ufpr.br/~giolo/asa/Suplementos.html.
+O presente código traz uma atualização ao script disponibilizado a fim de garantir robustez ao trabalhar com bases de dados com mais de 10 mil observações.
 
-Este trabalho é fruto do Trabalho de Conclusão de Curso em Estatística pela UFMG em janeiro de 2025.
+### Uso
+O código traz a geração dos dados sintético até o fit do modelo final.
+
 
 
